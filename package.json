@@ -1,0 +1,32 @@
+{
+  "name": "pic628a_iot",
+  "version": "1.0.0",
+  "description": "Server for used in a project with a pic16f628a for control a relay and a led",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon run server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabioJrRossi/Nodejs_Pic16f628a_Iot.git"
+  },
+  "keywords": [
+    "nodejs iot",
+    "express",
+    "nodejs pic16f628a",
+    "iot"
+  ],
+  "author": "Fabio Jr. Rossi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabioJrRossi/Nodejs_Pic16f628a_Iot/issues"
+  },
+  "homepage": "https://github.com/FabioJrRossi/Nodejs_Pic16f628a_Iot#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
