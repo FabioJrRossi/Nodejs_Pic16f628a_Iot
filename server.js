@@ -16,7 +16,7 @@ server.get("/", (req, res) => {
   res.json({ message: "Server is running!" }); // Response with a json message.
 });
 
-const PORT = process.env.PORT || 1988; // Define environment port or local port.
+let PORT = process.env.PORT || 1988; // Define environment port or local port.
 
 require("./app/routes/route.js")(server); // Importing routes for the express server.
 // Setting listener on port defined.
